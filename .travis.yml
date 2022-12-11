@@ -6,7 +6,7 @@ addons:
   sonarcloud:
     organization: "isaacvega5" 
     token:
-      secure: "f3e9c2e8babf433444ac880f427c45a1f9914927" 
+      secure: "d63ecd20ff070dfe73624df6da2978baae54dec5" 
 
 script:
   - python -m unittest discover -s tests
