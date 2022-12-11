@@ -10,5 +10,5 @@ addons:
 
 script:
   - python -m unittest discover -s tests
-  - sonar-project.properties
+  - sonar-scanner-project.properties
 
