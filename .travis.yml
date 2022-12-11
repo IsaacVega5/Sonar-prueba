@@ -6,10 +6,9 @@ addons:
   sonarcloud:
     organization: "isaacvega5" 
     token:
-      secure: "d63ecd20ff070dfe73624df6da2978baae54dec5" 
+      secure: "NYPgfeHzTZpbJK5W+84WYgW2JNDW8XjtBsyq9iJZOJ6r9DzXBsE1TBSi8x5srMzplIEO2GyRlon+JkSXY2JdaBtehsrM52RxKd1o3d0eMDERgFjDu/Qq6bdxzqqQq/jWMT+c0CHSNggUTWbl1EA/yCOBQSeZTMXhv04QiLZTkuYbDzjWHogQNdcJS6CkPxi4OMxHl0Mei1bFEhZG2XXfTsjLNyAFb0PGJrl/gfhMxRYE0dD6taV8eY+STLlQzcxcStuI97oOuB1yqTrlfLjjcLXXrQvMS79+3ZVaflmSjF37nUuD9VZepFaO9TH1JffTZA3kcV1MAx8NCQT4yoxSBOeAjqat6JsjSk+oADbPArzYSMMu0OlhqCHRjDTyAZ0xT+WXTzpwrbUdscCVfDn3QR3DRw+Ek+mDLs9SwkCHLk4y4UwATNXnPEOf872KMvmO79oCI/IukSUlSlFI5pIEN1jZ1soOq6DxXrQP1zWdk3acGWpBVCQA7JzRLdKqp6gPsviCoKUVjMu6fnQeO9EhyTu8NLV1b5xGe/lc2N6g3LhbjRcJuPzKXI92ZFNvhcKni6dMgjoVCSaUkPJHJ3L+NLEaD8f0uug3ZmTEVCLvoRUXSn57g733rK+pINBS50NzdWHylY8HUc9mNqwqNZ34FBDTML3QkQbCr4t9x3kP1Ro="
 
 script:
   - python -m unittest discover -s tests
 
-  - sonar:sonar - Dsonar.organization=isaacvega5 - Dsonar.projectKey=IsaacVega5_Sonar-prueba - Dsonar.sources=. - Dsonar.host.url=https://sonarcloud.io
-
+  - sonar:sonar
