@@ -2,6 +2,10 @@ language: python
 python:
   - "3.9.10"
 
-# command to run tests
+addons:
+  sonarcloud:
+    organization: "isaacvega5" # the key of the org you chose at step #3
+    token:
+      secure: "f3e9c2e8babf433444ac880f427c45a1f9914927" # encrypted value of your token
 script:
   - python -m unittest discover -s tests
