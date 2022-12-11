@@ -4,8 +4,10 @@ python:
 
 addons:
   sonarcloud:
-    organization: "isaacvega5" # the key of the org you chose at step #3
+    organization: "isaacvega5" 
     token:
-      secure: "f3e9c2e8babf433444ac880f427c45a1f9914927" # encrypted value of your token
+      secure: "f3e9c2e8babf433444ac880f427c45a1f9914927" 
+
 script:
   - python -m unittest discover -s tests
+  - mvn clean verify sonar:sonar -Pcoverage -Dsonar.projectKey=myorg_myrepo
