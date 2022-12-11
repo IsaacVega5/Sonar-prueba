@@ -10,4 +10,4 @@ addons:
 
 script:
   - python -m unittest discover -s tests
-  - mvn clean verify sonar:sonar -Pcoverage -Dsonar.projectKey=IsaacVega5_Sonar-prueba
+  - sonar-scanner
