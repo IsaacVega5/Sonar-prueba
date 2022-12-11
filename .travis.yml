@@ -10,9 +10,10 @@ addons:
 
 script:
   - python -m unittest discover -s tests
+
   - sonar-scanner
-  - Dsonar.organization=isaacvega5
-  - Dsonar.projectKey=IsaacVega5_Sonar-prueba
-  - Dsonar.sources=.
-  - Dsonar.host.url=https://sonarcloud.io
+  # - Dsonar.organization=isaacvega5
+  # - Dsonar.projectKey=IsaacVega5_Sonar-prueba
+  # - Dsonar.sources=.
+  # - Dsonar.host.url=https://sonarcloud.io
 
